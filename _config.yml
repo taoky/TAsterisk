@@ -17,7 +17,7 @@ title: Thoughts After *
 #email:
 description: >- # this means to ignore newlines until "baseurl:"
   Thoughts After *. A standalone sub-blog of taoky.github.io.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/TAsterisk" # the subpath of your site, e.g. /blog
 url: "https://taoky.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username:
 github_username:  taoky
