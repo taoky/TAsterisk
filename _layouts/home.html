@@ -10,7 +10,7 @@ layout: default
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts | 文章" }}</h2>
+    <h2 class="post-list-heading">{{ page.list_title | default: "文章 | Posts" }}</h2>
     <button type="button" class="btn btn-secondary btn-sm" id="lang-switch">Switch Language</button>
     <ul class="post-list">
       {%- for post in site.posts -%}
