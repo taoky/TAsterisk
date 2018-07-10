@@ -14,7 +14,9 @@ layout: default
       {%- if page.author -%}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
       {%- endif -%}</p>
+      {%- if page.enus -%}
       <button type="button" class="btn btn-secondary btn-sm" id="lang-switch">Switch Language</button>
+      {%- endif -%}
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
@@ -34,3 +36,11 @@ layout: default
 </article>
 
 <script src="{{ "/assets/language-selection.js" | relative_url }}"></script>
+<script src="{{ "/assets/showdown.min.js" | relative_url }}"></script>
+<script>
+  var converter = new showdown.Converter();
+  var div0 = document.getElementById("article-zhcn");
+  div0.innerHTML = converter.makeHtml(div0.textContent);
+  var div1 = document.getElementById("article-enus");
+  div1.innerHTML = converter.makeHtml(div1.textContent);
+</script>
