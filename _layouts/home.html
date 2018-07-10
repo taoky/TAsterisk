@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if site.posts.size > 0 -%}
+    <h2 class="post-list-heading">{{ page.list_title | default: "Posts | 文章" }}</h2>
+    <button type="button" class="btn btn-secondary btn-sm" id="lang-switch">Switch Language</button>
+    <ul class="post-list">
+      {%- for post in site.posts -%}
+      <li class="lang-zhcn">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%}
+          <p>{{ post.excerpt }} </p>
+        {%- endif -%}
+      </li>
+      {% if post.enus %}
+      <li class="lang-enus" style="display: none;">
+        <!-- english -->
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title_en | escape }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%}
+          <p>{{ post.excerpt_en }}</p>
+        {%- endif -%}
+      </li>
+      {% endif %}
+      {%- endfor -%}
+    </ul>
+
+    <p class="rss-subscribe"><a href="{{ "/feed.xml" | relative_url }}">RSS</a></p>
+  {%- endif -%}
+
+</div>
+
+<script src="{{ "/assets/language-selection.js" | relative_url }}"></script>
