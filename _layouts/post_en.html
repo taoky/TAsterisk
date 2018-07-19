@@ -4,8 +4,8 @@ layout: default
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name lang-zhcn" itemprop="name headline">{{ page.title | escape | markdownify }}</h1>
-    <h1 class="post-title p-name lang-enus" itemprop="name headline" style="display: none;">{{ page.title_en | escape | markdownify }}</h1>
+    <h1 class="post-title p-name lang-zhcn" itemprop="name headline" style="display: none;">{{ page.title | escape | markdownify }}</h1>
+    <h1 class="post-title p-name lang-enus" itemprop="name headline">{{ page.title_en | escape | markdownify }}</h1>
     <p class="post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
@@ -16,10 +16,10 @@ layout: default
       {%- endif -%}</p>
       {%- if page.enus -%}
       <button type="button" class="btn btn-secondary btn-sm" id="lang-switch">Switch Language</button>
-      {% elsif page.enus_counterpart %}
+      {% elsif page.enus_only %}
       <div class="alert alert-info" role="alert">
 
-        由于技术限制，该文章不支持语言切换。English version is <a href="{{site.baseurl}}{{ page.url | replace: ".html", "_en.html"}}">here</a>.
+        Due to technical limitations, this article does not support language switch. 中文版本在<a href="{{site.baseurl}}{{ page.url | replace: "_en.html", ".html"}}">此</a>。
         
         </div>
         
@@ -35,13 +35,12 @@ layout: default
   {%- endif -%}
   <hr>
   <div class="comment-tip">
-    <p class="lang-enus" style="display: none;">Wanna comment? Leave issue(s) at <a href="https://github.com/taoky/TAsterisk/issues">GitHub Issues Page of TAsterisk</a>. Feel free!</p>
-    <p class="lang-zhcn">想要评论？在 <a href="https://github.com/taoky/TAsterisk/issues">GitHub Issues 页面</a> 写吧！</p>
+    <p class="lang-enus">Wanna comment? Leave issue(s) at <a href="https://github.com/taoky/TAsterisk/issues">GitHub Issues Page of TAsterisk</a>. Feel free!</p>
+    <p class="lang-zhcn" style="display: none;">想要评论？在 <a href="https://github.com/taoky/TAsterisk/issues">GitHub Issues 页面</a> 写吧！</p>
   </div>
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
-
 {%- if page.enus -%}
 <script src="{{ "/assets/language-selection.js" | relative_url }}"></script>
 {% endif %}

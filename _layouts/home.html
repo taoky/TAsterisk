@@ -13,26 +13,28 @@ layout: default
     <h2 class="post-list-heading">{{ page.list_title | default: "文章 | Posts" }}</h2>
     <button type="button" class="btn btn-secondary btn-sm" id="lang-switch">Switch Language</button>
     <ul class="post-list">
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in site.posts -%}
+      {% unless post.enus_only %}
       <li class="lang-zhcn">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
+            {{ post.title | escape | markdownify }}
           </a>
         </h3>
         {%- if site.show_excerpts -%}
           <p>{{ post.excerpt }} </p>
         {%- endif -%}
       </li>
-      {% if post.enus %}
+      {% endunless %}
+      {% if post.enus or post.enus_only %}
       <li class="lang-enus" style="display: none;">
         <!-- english -->
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title_en | escape }}
+            {{ post.title_en | escape | markdownify }}
           </a>
         </h3>
         {%- if site.show_excerpts -%}
