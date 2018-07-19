@@ -1,5 +1,6 @@
 ---
 layout: post_en
+title:  "After Playing OneShot"
 title_en:  "After Playing *OneShot*"
 date:   2018-07-18
 categories: playing
