@@ -9,12 +9,20 @@ canonifyurls = "true"
 [languages.en]
 weight = 1
 
+[[languages.en.params.ananke_socials]]
+name = "rss"
+url = "https://www.taoky.moe/TAsterisk/en/posts/index.xml"
+
 [languages.zh]
 weight = 2
 
 [languages.zh.params]
 date_format = "2006 年 1 月 2 日"
 background_color_class = "bg-blue"
+
+[[languages.zh.params.ananke_socials]]
+name = "rss"
+url = "https://www.taoky.moe/TAsterisk/posts/index.xml"
 
 [params]
 # show_reading_time = true
