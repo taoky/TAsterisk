@@ -1,0 +1,37 @@
+/* CSS borrowed from Bootstrap 5.x (MIT) */
+
+.alert {
+    position: relative;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.alert-info {
+    color: #055160;
+    background-color: #cff4fc;
+    border-color: #b6effb;
+}
+
+.alert-warning {
+    color: #664d03;
+    background-color: #fff3cd;
+    border-color: #ffecb5;
+}
+
+.alert-link {
+    font-weight: 700;
+}
+
+.alert-info .alert-link {
+    color: #04414d;
+}
+
+.alert-warning .alert-link {
+    color: #523e02;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}

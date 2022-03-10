@@ -1,0 +1,27 @@
+baseURL = 'http://www.taoky.moe/TAsterisk'
+theme = "ananke"
+title = 'TAsterisk'
+defaultContentLanguage = 'zh'
+canonifyurls = "true"
+
+[languages]
+
+[languages.en]
+weight = 1
+
+[languages.zh]
+weight = 2
+
+[languages.zh.params]
+date_format = "2006 年 1 月 2 日"
+background_color_class = "bg-blue"
+
+[params]
+# show_reading_time = true
+custom_css = ["alert.css", "override.css"]
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.goldmark.parser.attribute]
+block = true

@@ -1,0 +1,13 @@
+/* are there any better ways to override theme html? */
+
+.w-two-thirds-l {
+    width: 100% !important;
+}
+
+aside {
+    display: none;
+}
+
+main.pb7 {
+    padding-bottom: 0;
+}
