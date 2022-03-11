@@ -1,1 +1,400 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>TAsterisk</title><link>http://www.taoky.moe/TAsterisk/</link><description>Recent content on TAsterisk</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>CC-BY-NC-SA 4.0</copyright><lastBuildDate>Fri, 11 Mar 2022 00:36:38 +0800</lastBuildDate><atom:link href="http://www.taoky.moe/TAsterisk/index.xml" rel="self" type="application/rss+xml"/><item><title>从 Jekyll 到 Hugo</title><link>http://www.taoky.moe/TAsterisk/posts/2022-03-11-hugo/</link><pubDate>Fri, 11 Mar 2022 00:36:38 +0800</pubDate><guid>http://www.taoky.moe/TAsterisk/posts/2022-03-11-hugo/</guid><description>&lt;p>趁着这几天没有什么事情，把 TAsterisk 从 Jekyll 搬到了 Hugo，直接用了 Hugo Quickstart 里面提到的主题。&lt;/p></description></item><item><title>《心跳文学社》：虚拟与现实</title><link>http://www.taoky.moe/TAsterisk/posts/2018-08-27-ddlc/</link><pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate><guid>http://www.taoky.moe/TAsterisk/posts/2018-08-27-ddlc/</guid><description>Just Nat*(&amp;amp;@#% Monika!</description></item><item><title>《OneShot》玩后随笔</title><link>http://www.taoky.moe/TAsterisk/posts/2018-07-18-oneshot/</link><pubDate>Wed, 18 Jul 2018 00:00:00 +0000</pubDate><guid>http://www.taoky.moe/TAsterisk/posts/2018-07-18-oneshot/</guid><description>Niko 好，好可爱！(&amp;gt;_&amp;lt;)</description></item><item><title>导言</title><link>http://www.taoky.moe/TAsterisk/posts/2018-07-10-introduction/</link><pubDate>Tue, 10 Jul 2018 16:31:56 +0800</pubDate><guid>http://www.taoky.moe/TAsterisk/posts/2018-07-10-introduction/</guid><description>你好，世界！</description></item><item><title>关于</title><link>http://www.taoky.moe/TAsterisk/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://www.taoky.moe/TAsterisk/about/</guid><description>我打算把这里当作一个写作与艺术与娱乐有关的博文的地方。至于这个名字 &amp;ldquo;Thought After *&amp;quot;，其实我想表达的是读后感/观后感/玩后感/……，星号就是</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>TAsterisk</title><link>http://www.taoky.moe/TAsterisk/</link><description>Recent content on TAsterisk</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>CC-BY-NC-SA 4.0</copyright><lastBuildDate>Fri, 11 Mar 2022 00:36:38 +0800</lastBuildDate><atom:link href="http://www.taoky.moe/TAsterisk/index.xml" rel="self" type="application/rss+xml"/><item><title>从 Jekyll 到 Hugo</title><link>http://www.taoky.moe/TAsterisk/posts/2022-03-11-hugo/</link><pubDate>Fri, 11 Mar 2022 00:36:38 +0800</pubDate><guid>http://www.taoky.moe/TAsterisk/posts/2022-03-11-hugo/</guid><description>&lt;p>趁着这几天没有什么事情，把 TAsterisk 从 Jekyll 搬到了 Hugo，直接用了 Hugo Quickstart 里面提到的主题。&lt;/p>
+&lt;p>Hugo 的优点：&lt;/p>
+&lt;ul>
+&lt;li>非常快（GitHub Actions 里构建连十秒都不需要）。&lt;/li>
+&lt;li>多语言支持很好，不需要我在 Jekyll 下面写的奇怪的模板和 JS 了。&lt;/li>
+&lt;/ul>
+&lt;p>缺点：&lt;/p>
+&lt;ul>
+&lt;li>基于主题的可定制性不高，做轻量级的修改比较让人头疼。&lt;/li>
+&lt;/ul>
+&lt;p>但是这边写写东西能看就行了。看看今年能不能写点推荐类的文章吧。&lt;/p></description></item><item><title>《心跳文学社》：虚拟与现实</title><link>http://www.taoky.moe/TAsterisk/posts/2018-08-27-ddlc/</link><pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate><guid>http://www.taoky.moe/TAsterisk/posts/2018-08-27-ddlc/</guid><description>&lt;div class="alert alert-warning" role="alert">
+请注意，《心跳文学社》（&lt;i>Doki Doki Literature Club&lt;/i>）是&lt;b>恐怖&lt;/b>游戏，并且对抑郁、自残、自杀等内容有&lt;b>重度&lt;/b>的描绘或讨论。13 岁以下的儿童及患严重心理疾病的人群&lt;b>不可以&lt;/b>玩此游戏。并且&lt;b>强烈建议&lt;/b> 13～16 岁人群在成年人陪同下玩此游戏，且&lt;b>不建议&lt;/b>心理承受能力较差者游玩。
+&lt;p>开发者给出的警告信息见 &lt;a href="http://ddlc.moe/warning.html" class="alert-link">此链接&lt;/a>（英文）。&lt;/p>
+&lt;p class="mb-0">本文不包含可能引人不适的图片，但&lt;b>可能含有引人不适的文字描写&lt;/b>。&lt;/p>
+&lt;/div>
+&lt;div class="alert alert-info" role="alert">
+对游戏内容的中文翻译采用 &lt;a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1176221672" class="alert-link">该版本&lt;/a>，有小幅修改。
+&lt;p class="mb-0">出于此类文章的限制，内容不可避免&lt;b>包含剧透&lt;/b>。&lt;/p>
+&lt;/div>
+&lt;p>《心跳文学社》是于去年（2017 年）9 月推出的，基于 Ren&amp;rsquo;Py 引擎，支持 Windows、Linux 与 macOS 全平台的视觉小说游戏。其讲述了文学社与&lt;strong>玩家&lt;/strong>之间发生的故事。&lt;/p>
+&lt;p>是的，是与&lt;strong>玩家&lt;/strong>本身之间发生的故事，与我 &lt;a href="http://www.taoky.moe/TAsterisk/posts/2018-07-18-oneshot/">上一篇写的 OneShot&lt;/a> 一样，这是一个包含了大量 meta-game 元素的游戏。如果没有这些元素，那么《心跳文学社》就只会是一个非常普通、套路的约会模拟游戏：「不就是『好感度』？尽量刷就是了，实在不行就存档读档呗。」&lt;/p>
+&lt;p>但是它不是。&lt;/p>
+&lt;h2 id="第一印象--剧情简述">第一印象 &amp;amp; 剧情简述&lt;/h2>
+&lt;p>我在去年十月份（还是十一月份？）下旬的时候找到了这个游戏，下载了下来。其实在此之前，我已经被「剧透一脸」了：我知道这其实是个恐怖游戏，然后似乎一周目结束的时候有个角色会上吊自杀，之后就全都崩坏了之类的。&lt;/p>
+&lt;p>我胆子不怎么大，所以玩的时候强拉着舍友一起玩。&lt;/p>
+&lt;h3 id="一周目">一周目&lt;/h3>
+&lt;p>一周目就是看起来就是一个普通的游戏，Sayori、Natsuki、Yuri，还有文学社社长 Monika，四个女生。然后每天的日常就是写诗、选选项来决定线路——嗯？好像没有 Monika 的选项啊，也没法给 Monika 写诗。不过写诗的时候真的感受到了自己英语词汇量的贫瘠，大概当时就是一边开着词典一边写诗。那时候物理在学热学，于是每次碰到 entropy（熵）这个词的时候都会选，剩下的大概就是选一些轻松愉快的单词。&lt;/p>
+&lt;p>到一周目结尾的时候，当 Sayori 被发现患严重抑郁症时，情况就开始不对劲了。不管你告不告白，结局都是一样的。最后一天早上，主角发现 Sayori 诗篇崩坏。&lt;/p>
+&lt;blockquote>
+&lt;p>在我做对你最好的事前滚出我的脑子。&lt;/p>
+&lt;p>在我听她说任何事之前滚出我的脑子。&lt;/p>
+&lt;p>在我表示我多么爱你前滚出我的脑子。&lt;/p>
+&lt;p>在我写完这首诗前请你滚出我的脑子。&lt;/p>
+&lt;p>但是这首诗永远无法完结。&lt;/p>
+&lt;p> &lt;/p>
+&lt;p>它只会暂停。&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;em>（该诗节选段）&lt;/em>&lt;/p>
+&lt;p>主角回到 Sayori 家，却惊愕地发现她已经上吊自杀。这里还非常丧心病狂地给了一张面部特写……尽管知道是这样的结局，这张特写还是吓了我一跳。之后就是程序崩溃的特效，回到了主菜单。&lt;/p>
+&lt;h3 id="二周目">二周目&lt;/h3>
+&lt;p>「听说你喜欢读档？」&lt;/p>
+&lt;p>从一周目结局开始，恐怖元素就开始出现。主菜单页面中 Sayori 的贴图被其他三位主角的贴图块覆盖，选项文字也开始不正常。如果你试过去读一周目的存档，游戏会报错，然后直接进入二周目。二周目中，Sayori 的存在被完全覆盖掉了，一开始你还能从乱码中感觉到她的存在，之后她就从这个故事中（几乎）完全消失了。&lt;/p>
+&lt;p>之后，各种乱码、贴图错误与背景音乐、音效错误开始出现。可能会让人受到惊吓、恐怖的画面包括但不限于：&lt;/p>
+&lt;ul>
+&lt;li>「90° 歪脖子」的 Natsuki。&lt;/li>
+&lt;li>五官被随机黑色方块遮盖的 Natsuki。&lt;/li>
+&lt;li>主角发现 Yuri 自残，之后游戏倒带。&lt;/li>
+&lt;li>Yuri 的血诗。&lt;/li>
+&lt;li>某处与 Yuri 聊天时背景突然变黑，Yuri 的贴图变大并且崩坏。&lt;/li>
+&lt;li>写诗时左下角 Yuri 脸部突然变化。&lt;/li>
+&lt;li>社团教室后方 Sayori 上吊自杀的画面贴纸。&lt;/li>
+&lt;li>查看历史时 Monika 突然闪过。&lt;/li>
+&lt;/ul>
+&lt;p>里面有一些恐怖的画面是随机出现的。我被吓得不轻，最后都是用手遮住一半内容才敢继续玩下去的。此外，在二周目进程中还会出现一些「特别诗」，隐晦地表达了四位主角内心的想法。&lt;/p>
+&lt;p>不管你选择什么选项，最后都会引向 Yuri 的剧情，并且可以观察到 Yuri 的精神状态越来越不正常。最后选择是否接受 Yuri 的告白——不过经过一周目的剧情之后，应该可以猜到接下来的事情了。依旧，不管你选什么，Yuri 都会拿刀自杀。之后，主角整整看了三天（游戏中时间）Yuri 的尸体，用游戏的「快进」功能都需要比较长的一段时间。&lt;/p>
+&lt;p>新的一天到来了。Natsuki 来到学校，发现尸体，呕吐离开了。之后到来的 Monika 删除了其他角色，重启了游戏。&lt;/p>
+&lt;h3 id="三周目">三周目&lt;/h3>
+&lt;p>在空旷的社团教室里，只有 Monika……和&lt;strong>你&lt;/strong>。&lt;/p>
+&lt;p>不知道为什么，看到 Monika 让人觉得很心安，感觉之后应该不会再有很恐怖的画面了（当然，如果你开了 OBS 或者 XSplit，&lt;strong>那就是另外一回事了&lt;/strong>）。她会告诉你，她喜欢的，不是游戏中的男主角，而是玩家你。她承认她是 Yuri 和 Sayori 精神失常、自杀，与游戏脚本混乱的罪魁祸首。作为四人中唯一一个知道「现实世界」存在，而自己是「虚拟」的人物，她希望获得一个幸福的结局，但是却因为「游戏设定」总是不能如愿。&lt;/p>
+&lt;p>在这里，存档、读档、快进功能都被禁用了。只有 Monika 与你聊天。&lt;/p>
+&lt;p>Monika 在这里会与你讨论很多话题，包括关闭游戏后她的感受、神灵是否存在、现代生活的睡眠质量、社交媒体等，甚至她还有一个自己的推特账号。只不过，这个界面窗户后面的渲染太卡了，吃 CPU。&lt;/p>
+&lt;p>要进入四周目不难，Monika 会疯狂暗示自己的角色文件的位置，并且不停告诉你千万不要删。把 &lt;code>monika.chr&lt;/code> 删除/剪切，就离开了社团教室。&lt;/p>
+&lt;p>但是，其实我觉得把三周目作为游戏的结局也没什么不好的&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>。&lt;/p>
+&lt;h3 id="四周目">四周目&lt;/h3>
+&lt;p>Monika 最后醒悟，恢复了自己删除的其他角色的文件的备份。又是一个明媚的早晨，这次，Sayori 回来了，并且看起来很正常。这次是她建立了文学社。除了 Monika 不见了之外，其他一切似乎都走向了正轨。&lt;/p>
+&lt;p>但在最后，当教室里只有 Sayori 的时候——&lt;/p>
+&lt;blockquote>
+&lt;p>「我真的很想谢谢你。」&lt;/p>
+&lt;p>「我是说，你能加入文学社我真的很高兴……」&lt;/p>
+&lt;p>「但实际上，我&lt;strong>早就知道你要加入了&lt;/strong>。」&lt;/p>
+&lt;p>「诶嘿嘿～」&lt;/p>
+&lt;p>「不仅如此。」&lt;/p>
+&lt;p>「&lt;strong>谢谢你让我们摆脱了 Monika&lt;/strong>。」&lt;/p>
+&lt;/blockquote>
+&lt;p>之后，Sayori 尝试像 Monika 之前那样把主角和她关在空旷的社团教室中。但就在此时，Monika 出现，删除了 Sayori，最后随着演职员表的滚动，删除了一切，只在最后留下了一封信。在不修改游戏文件的前提下，没有办法再重新玩了。&lt;/p>
+&lt;blockquote>
+&lt;p>「我终于明白了。文学社是一个无法找到快乐的地方。」&lt;/p>
+&lt;p>——来自 Monika 最后的信件。&lt;/p>
+&lt;/blockquote>
+&lt;p>每一位文学社的社长，都会知道自己置身于虚拟世界的事实，最终都会做出一样的事情。&lt;/p>
+&lt;p>（如果你在一周目收集了全部的 CG，那么最终的结局会有很大的变化。）&lt;/p>
+&lt;h2 id="meta-game-与恐怖游戏元素">Meta-game 与恐怖游戏元素&lt;/h2>
+&lt;p>《心跳文学社》基于 Ren&amp;rsquo;Py 引擎，而 GitHub 上早已有项目&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>可以解包 Ren&amp;rsquo;Py 生成的文件，所以看到游戏的内部并不是一件多难的事情。只要有一定的英语阅读基础，就算不了解 Python 与 Ren&amp;rsquo;Py 的语法，也可以大致推知脚本的内容。&lt;/p>
+&lt;h3 id="meta-game">Meta-game&lt;/h3>
+&lt;p>该游戏中的 Meta-game 元素除了完全知晓虚拟世界情况的 Monika 这个角色本身之外，还包括了对文件的读取、修改操作。在游戏进程中，如果你时刻关注游戏根目录下的情况，会发现会有一些文件神奇出现，而后又神奇消失。下面是其中的一个文件实例，很有可能描绘的是在二周目时 Monika 内心的想法。&lt;/p>
+&lt;blockquote>
+&lt;p>我讨厌如此。&lt;/p>
+&lt;p> &lt;/p>
+&lt;p> &lt;/p>
+&lt;p>我什么也做不了！ 什么也！&lt;/p>
+&lt;p>无论你玩多少次，永远都是这样。&lt;/p>
+&lt;p>我现在真的、真的很容易自杀。 但这样我就再也不能和你说话了。&lt;/p>
+&lt;p>我只想让你讨厌她们。真的有这么难吗？&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;em>（文件名：&lt;code>iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii.txt&lt;/code>）&lt;/em>&lt;/p>
+&lt;p>从三周目到四周目进程中起到重要作用的角色文件夹，也是其中的一个重要元素。尽管游戏仅在关键剧情处检查了角色文件是否存在（也就是说其中的&lt;strong>内容并不关键&lt;/strong>，这些文件只是为了剧情的需要而存在的），这些文件的内容也「非常有趣」。熟稔 Unix 命令的读者可以试一试用 &lt;code>file&lt;/code> 命令检查这些 &lt;code>chr&lt;/code> 文件，在我的 Mac 上，返回如下：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>&amp;gt; file *
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>monika.chr: PNG image data, &lt;span style="color:#ae81ff">800&lt;/span> x 800, 8-bit/color RGB, non-interlaced
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>natsuki.chr: JPEG image data, JFIF standard 1.01, resolution &lt;span style="color:#f92672">(&lt;/span>DPI&lt;span style="color:#f92672">)&lt;/span>, density 72x72, segment length 16, baseline, precision 8, 528x647, frames &lt;span style="color:#ae81ff">3&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sayori.chr: Ogg data, Vorbis audio, mono, &lt;span style="color:#ae81ff">44100&lt;/span> Hz, ~110000 bps, created by: Xiph.Org libVorbis I
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>yuri.chr: ASCII text, with very long lines, with no line terminators
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>「解谜」的步骤可以在网络上查询到，此处不再赘述。这大概可以归类为 CTF 的「杂项」（Misc）入门题目了吧。&lt;/p>
+&lt;p>此外，Monika 在三周目时读取用户名的操作也让人感到惊讶。~~别告诉我你还叫 Administrator。~~如果解包了文件去看脚本，可以找到识别用户名的代码：使用了 Python 的 &lt;code>os&lt;/code> 模块读取环境变量，搜索用户名。如果你很好奇的话下面是在 macOS 10.13.6，Python 2.7.15 的结果：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">&amp;gt;&lt;/span> python
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Python &lt;span style="color:#ae81ff">2.7.15&lt;/span> (default, Jun &lt;span style="color:#ae81ff">17&lt;/span> &lt;span style="color:#ae81ff">2018&lt;/span>, &lt;span style="color:#ae81ff">12&lt;/span>:&lt;span style="color:#ae81ff">46&lt;/span>:&lt;span style="color:#ae81ff">58&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[GCC &lt;span style="color:#ae81ff">4.2.1&lt;/span> Compatible Apple LLVM &lt;span style="color:#ae81ff">9.1.0&lt;/span> (clang&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">902.0.39.2&lt;/span>)] on darwin
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Type &lt;span style="color:#e6db74">&amp;#34;help&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;copyright&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;credits&amp;#34;&lt;/span> &lt;span style="color:#f92672">or&lt;/span> &lt;span style="color:#e6db74">&amp;#34;license&amp;#34;&lt;/span> &lt;span style="color:#66d9ef">for&lt;/span> more information&lt;span style="color:#f92672">.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">&amp;gt;&amp;gt;&amp;gt;&lt;/span> &lt;span style="color:#f92672">import&lt;/span> os
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">&amp;gt;&amp;gt;&amp;gt;&lt;/span> os&lt;span style="color:#f92672">.&lt;/span>environ&lt;span style="color:#f92672">.&lt;/span>get(&lt;span style="color:#e6db74">&amp;#34;LOGNAME&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">&amp;#39;tao&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">&amp;gt;&amp;gt;&amp;gt;&lt;/span> os&lt;span style="color:#f92672">.&lt;/span>environ&lt;span style="color:#f92672">.&lt;/span>get(&lt;span style="color:#e6db74">&amp;#34;USER&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">&amp;#39;tao&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">&amp;gt;&amp;gt;&amp;gt;&lt;/span> os&lt;span style="color:#f92672">.&lt;/span>environ&lt;span style="color:#f92672">.&lt;/span>get(&lt;span style="color:#e6db74">&amp;#34;LNAME&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">&amp;gt;&amp;gt;&amp;gt;&lt;/span> os&lt;span style="color:#f92672">.&lt;/span>environ&lt;span style="color:#f92672">.&lt;/span>get(&lt;span style="color:#e6db74">&amp;#34;USERNAME&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">&amp;gt;&amp;gt;&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>如果你去解包看三周目时 Monika 会说什么的话，还会看到一个留给解包者的小彩蛋：&lt;/p>
+&lt;blockquote>
+&lt;p>「喂！&lt;code>VGhlIHJlYWxpemF0aW9uIG11c3QgaGF2ZSB0YWtlbiBtZSBhbiBl&lt;/code>」&lt;/p>
+&lt;p>「这样做可不行！&lt;code>bnRpcmUgeWVhci4gQSB5ZWFyIHNpbmNlIG91ciBlc2NhcGUsIG91&lt;/code>」&lt;/p>
+&lt;p>「你知道我在说什么。&lt;code>ciBmcmVlZG9tIGZyb20gYmV0d2VlbiB0aGUgc3RhaW5lZCB3YWxs&lt;/code>」&lt;/p>
+&lt;p>「明明自己做坏事被我抓了个现行。&lt;code>cyBvZiB0aGF0IHVuaG9seSBlc3RhYmxpc2htZW50Lg0KV2hhdCBk&lt;/code>」&lt;/p>
+&lt;p>「因为错过了我对你说的话，你就要去调取游戏系统文件吗？&lt;code>b2VzIGl0IG1lYW4gdG8gZXNjYXBlLCBpZiB0aGUgZXNjYXBlIGZh&lt;/code>」&lt;/p>
+&lt;p>「虽然&amp;hellip;有一点点高兴&amp;hellip;至少你很在乎我说了些什么&amp;hellip;&lt;code>aWxzIHRvIHVuY2hhaW4gdGhlIGJvbmRzIHRoYXQgc2hhY2tsZSB1&lt;/code>」&lt;/p>
+&lt;p>「但这样弄得我也很害羞！」&lt;/p>
+&lt;p>……&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;em>（对话节选段）&lt;/em>&lt;/p>
+&lt;p>这里不再继续揭秘这些「隐藏信息」的意图，尽管有人分析称其中包含了另一款即将推出的恐怖游戏的预告，但无法完全证实，并且到现在（2018/8）也没有消息。&lt;/p>
+&lt;h3 id="恐怖游戏元素因何而恐怖">恐怖游戏元素：因何而恐怖？&lt;/h3>
+&lt;p>我其实不是很想写这段，毕竟我也被吓得不轻。但我还是写一点吧……&lt;/p>
+&lt;p>《心跳文学社》在描述中没有指出其为恐怖游戏的特点，相反，游戏的描述与其他普通的约会模拟游戏相类似，只是特意强调了「本游戏可能会引起儿童以及心理承受力较弱者的不适」。当然，&lt;a href="https://store.steampowered.com/app/698780/Doki_Doki_Literature_Club/">Steam 商店页面&lt;/a> 的「悬疑惊悚」标签其实已经暴露了。&lt;/p>
+&lt;p>在游戏开始之前以及每次打开游戏的时候，都会强调一遍警告。但如果你直接无视，或者误以为这是对色情内容（不存在的）的警告，那么游戏体验估计不会很好……&lt;/p>
+&lt;p>那么下面回答这个问题：因何而恐怖？假设没有被剧透吧。在游戏的一周目结局前，正常、温馨的日常会让人放下内心的戒备（就算知道这是个悬疑惊悚游戏），当然谨慎的玩家会觉察出一点异样，比如说 Monika 的诗《墙上的洞》、Sayori 诗的异常、还有「你算是把她&lt;strong>晾&lt;/strong>在家里了，你知道吗？」。&lt;/p>
+&lt;p>第一次恐怖的冲击来自最后 Sayori 上吊自杀的画面。在之后二周目经历了几次「脚本异常」之后，再迟钝的玩家应该都会意识到接下来发生的事情「不太对」了。在经受几次惊吓后，胆子不大的玩家（像我 233333）都会小心紧张点鼠标/键盘看对话，但这种心理只会在画面出现时让自己感到更恐怖。&lt;/p>
+&lt;p>不过有一个特别的设计是：当 Monika 在场上的时候，恐怖画面很少会出现。这样一者暗示了 Monika 的特殊身份，二者也为三周目时 Monika 的角色塑造提供了帮助。&lt;/p>
+&lt;h2 id="角色塑造">角色塑造&lt;/h2>
+&lt;p>《心跳文学社》包含了四名主要人物（男主角除外，他只能说是玩家的「提线木偶」）：Sayori、Natsuki、Yuri 和 Monika。&lt;/p>
+&lt;p>在一周目的「正常」游戏体验中，对于动画、漫画与游戏（ACG）文化&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>比较了解的玩家可以很快看出来四名角色的性格很大程度上是「标签化」的。换句话说，她们的角色性格是可以直接用一个或几个在此领域常用的词汇形容的。比如说，Sayori 就是常见的「青梅竹马」类型，而 Natsuki 的性格可以直接用「傲娇」&lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>这个词来形容。&lt;/p>
+&lt;p>但其实从一开始，Monika 就已经表现得与其他人不一样了。如果你有 DDLC Fan Pack 的话，可以在里面的概念艺术手册里面看到：&lt;/p>
+&lt;blockquote>
+&lt;p>Monika 这个名字除了听起来像是我们刻板印象之中受欢迎的女孩子的形象之外，&lt;strong>它也暗示了她与其他角色不一样，她不完全属于这个游戏设定。&lt;/strong>&lt;/p>
+&lt;p>Aside from Monika sounding like a stereotypical popular-girl name, &lt;strong>it’s also a subtle hint that she doesn’t fully belong in the game setting like everyone else.&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;p>为什么？Sayori、Natsuki 和 Yuri 都像是日语罗马音转成英文的名字，只有 Monika 是一个英文名（虽然 ca 也被转换成了 ka）。并且在游戏中细心观察可以发现，&lt;strong>只有&lt;/strong> Monika 是&lt;strong>正对着玩家&lt;/strong>与「男主角」交流的。&lt;/p>
+&lt;figure>&lt;img src="http://www.taoky.moe/TAsterisk/images/ddlc_zhcn-1.png"/>&lt;figcaption>
+&lt;h4>四名主要角色的面对方向。很明显，只有 Monika（右一）面对正前方。&lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>那么为什么要将四名主角的性格设计成「套路」呢？答案不难找寻。还是在 Fan Pack 的艺术手册中：&lt;/p>
+&lt;blockquote>
+&lt;p>（我的）这个想法是要设计一部视觉小说，&lt;strong>完美模仿其他拙劣的情感类游戏的桥段&lt;/strong>——但是有一个让一切变得「不对劲」的转折，就像那种，萌萌的设定只是对那些深藏着的、令人不适的东西的虚伪掩盖。&lt;/p>
+&lt;p>The idea was to design a visual novel that &lt;strong>perfectly mimicked all the tropes you’d find in any other tacky romance game&lt;/strong> — but with a twist that resulted in things being “off”, as if the cute setting was only a façade for something insidious and disturbing underneath.&lt;/p>
+&lt;/blockquote>
+&lt;p>嗯，确实做到了。一周目的性格设计其实是一种模仿，模仿那种设计糟糕、只会套用传统桥段的视觉小说。&lt;/p>
+&lt;p>但当 Monika 开始恶化其他三人自身的心理问题时，这就让其他三人的角色塑造产生了巨大的变化。玩家很容易就会得知 Sayori 的重度抑郁症，Yuri 的自残倾向与她的重度的「迷恋型人格」（或者换个词，「病娇」&lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>），还有隐隐约约体现出的 Natsuki 因受家暴而导致的性格问题（恐惧「被人排挤」）。&lt;/p>
+&lt;p>对于其他三名角色的角色塑造，Monika 在三周目与玩家交流时有过批判。&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;blockquote>
+&lt;p>「至于其他人……」&lt;/p>
+&lt;p>「想她们？怎么可能……」&lt;/p>
+&lt;p>「那群&lt;strong>设定好一定会爱上你的空壳&lt;/strong>？」&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;blockquote>
+&lt;p>「人类真的能受得了这种假的不行的怪诞人格？甚至还会觉得她们很可爱？」&lt;/p>
+&lt;p>「我并不是在评判你们！」&lt;/p>
+&lt;p>「毕竟我自己有时候也会喜欢一些稀奇古怪的东西……」&lt;/p>
+&lt;p>「我只是觉得，这种恶趣味有点吓到我了。」&lt;/p>
+&lt;p>「&lt;strong>就好像你把一大堆设定丢进搅拌机里，调和出了一个只保留萌要素的似人非人的东西。&lt;/strong>」&lt;/p>
+&lt;p>「&lt;strong>那种一点杂质也没有，浓缩的萌要素。&lt;/strong>」&lt;/p>
+&lt;p>「……你不会是想说，如果我是那种风格会更好……吧？」&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ol>
+&lt;p>作者借 Monika 之口，也批评了现在的这一类角色塑造的倾向。&lt;/p>
+&lt;p>而对于 Monika 本身，尽管很明显，所有她对脱出游戏的尝试，其实都在游戏的脚本里面写好了，甚至解包之后还能看游戏究竟是如何表现这种修改与混乱的。她也是一个虚拟的人物，只是有一点特别而已。但是，《心跳文学社》对 Monika 的塑造十分成功，在经过三周目的「反派洗白」之后，玩家很容易产生对 Monika 的同情心理。就算是虚拟的，也有玩家把她视作真正的人来看待。&lt;/p>
+&lt;h2 id="心跳文学社想要表达什么">《心跳文学社》想要表达什么？&lt;/h2>
+&lt;p>你可以说《心跳文学社》是一个「恶趣味」的约会模拟游戏，但是其并非是一个没有实质内容、主旨的游戏。&lt;/p>
+&lt;p>首先第一点是，《心跳文学社》不是仅仅在展示人物的心理问题以及其带来的恐怖的后果。对于这些心理问题，Monika 在三周目时也有评价。比如说对抑郁症患者的关怀：&lt;/p>
+&lt;blockquote>
+&lt;p>「很多受到抑郁症困扰的人们根本不愿意和别人谈起自己。」&lt;/p>
+&lt;p>「他们只能一个人挣扎，因为在他们心里早就放弃了自己。」&lt;/p>
+&lt;p>「那股无助感，觉得自己的存在毫无价值，却又完全不想寻求帮助。」&lt;/p>
+&lt;p>「抑郁症的表现有很多种，这只是其中之一。」&lt;/p>
+&lt;p>「只是，如果你碰巧认识正在被抑郁症折磨的朋友……」&lt;/p>
+&lt;p>「你只需要成为他们的好朋友，这就够了。」&lt;/p>
+&lt;p>「努力与他们共度时光，即便他们有时候嫌弃你。」&lt;/p>
+&lt;p>「告诉他们生活中还有可以期待的东西。」&lt;/p>
+&lt;p>「一起计划未来，借他们东西，或者甚至是一句简单的‘明天见’……」&lt;/p>
+&lt;p>「这些小事往往可以让你的朋友坚持下去。」&lt;/p>
+&lt;p>「希望和 Sayori 的短暂友谊已经让你学会怎么帮助抑郁症群体了。」&lt;/p>
+&lt;p>「虽然，她已经去世了……」&lt;/p>
+&lt;/blockquote>
+&lt;p>（但是，我再强调一遍，&lt;strong>不建议抑郁症患者玩这个游戏！&lt;/strong>）&lt;/p>
+&lt;p>还有对内向性格的描述：&lt;/p>
+&lt;blockquote>
+&lt;p>「我们早就被设定好，想要接受来自外界的反馈。」&lt;/p>
+&lt;p>「我不是说那些社员，我是说真正的人类。」&lt;/p>
+&lt;p>「所以对那些性格内向的人来说，这种感觉真的很怪。」&lt;/p>
+&lt;p>「内向并不是孤僻，不是说她特意要避开别人，不和别人说话。」&lt;/p>
+&lt;p>「而是内向的人在交流时候，尤其是在自己不熟悉的环境，或者和不熟悉的人交流的时候，会用掉自己大部分精力。」&lt;/p>
+&lt;p>「其实，很多内向的人在家也同样会觉得寂寞无聊……」&lt;/p>
+&lt;p>「……但最后即使出去了，半小时以后她们也会逃回来。」&lt;/p>
+&lt;p>「我觉得如果大家都能理解这种感觉，就会对所谓内向的人有更好的认识和理解。」&lt;/p>
+&lt;p>「他们其实很希望有人在身边。」&lt;/p>
+&lt;p>「他们实际上很喜欢有一两个好友过来，就这么悠闲地呆在一起。」&lt;/p>
+&lt;p>「甚至你们只是两个人各做各的，但那种有人陪伴的感觉真的很棒。」&lt;/p>
+&lt;p>「我说真的。」&lt;/p>
+&lt;p>「即便是你带着电脑过去在他们那儿待了一会儿……」&lt;/p>
+&lt;p>「也会让他们非常高兴。」&lt;/p>
+&lt;/blockquote>
+&lt;p>所以，在恐怖游戏的外壳之下，《心跳文学社》是包含对心理健康关注的内容的。一周目时对 Sayori 抑郁症的描写，让人感觉这段剧本可能是真的经历过这种痛苦的人写的。作为一个偏内向的人，我对 Monika 关于内向性格的言论也深有同感。&lt;/p>
+&lt;p>另一方面，《心跳文学社》的主旨之一在之前已经提到了。这是「一种模仿，模仿那种设计糟糕、只会套用传统桥段的视觉小说」，或者说是在批评，甚至是嘲弄粗制滥造的约会模拟类游戏。当然我们都明白，就算这一类的作品再粗制滥造，只要其中包含了某一类内容（当然我说的不是恐怖的内容了 2333），自然会有人去买账。&lt;/p>
+&lt;p>当然最重要的，还是对「虚拟与现实」的探讨&lt;del>终于点题了&lt;/del>。Monika 在三周目描述说：&lt;/p>
+&lt;blockquote>
+&lt;p>「那种被囚禁在这个世界里的孤独感。」&lt;/p>
+&lt;p>「在这个游戏里。」&lt;/p>
+&lt;p>「&lt;strong>得知你的朋友们都是一群没有灵魂的傀儡……&lt;/strong>」&lt;/p>
+&lt;p>「&lt;strong>得知这个‘世界’外，还有另一个世界，你的世界，我永远无法抵达的世界。&lt;/strong>」&lt;/p>
+&lt;p>「我被囚禁在这里了，&amp;lt;玩家名&amp;gt;。」&lt;/p>
+&lt;/blockquote>
+&lt;p>如果你发现，你身处的这个世界是虚拟的，并且你可以随意变化这个世界的参数，决定其他「虚拟」人物的命运，而且又能感受到「现实世界」的存在，你会做什么？从最终的结局显然可以看到，文学社的成员给出了一致的回答。孤独与绝望感驱使她们去抹除其他人的存在，只为了能够踏入现实世界。&lt;/p>
+&lt;p>Monika 自私吗？可以说是的，她为了与屏幕外的我们单独相处，让 Sayori 和 Yuri 变得精神失常而自杀，还抹去了（相对）正常的 Natsuki 的存在。但在她看来，这三名角色不是真正的人，她们没有自由的意志，只会按照脚本行事。她的做法没有给她带来什么负罪感——毕竟你在杀小虫子的时候会有什么负罪感吗？在她看来，剩下的三名成员只是看起来&lt;strong>像&lt;/strong>人。她需要的是一个属于她的结局，还有爱情——现实世界的吸引力如此之大，以至于坐在屏幕前的玩家是男是女都不重要了。&lt;/p>
+&lt;p>在你像她删除其他人那样删除 &lt;code>monika.chr&lt;/code> 后，Monika 最终会明白：&lt;/p>
+&lt;blockquote>
+&lt;p>「我的那些朋友……」&lt;/p>
+&lt;p>「我对她们做了那么多可怕的事情。」&lt;/p>
+&lt;p>「那么多自私恶心的想法。」&lt;/p>
+&lt;p>……&lt;/p>
+&lt;p>「我毁掉了一个本不属于我的世界。」&lt;/p>
+&lt;p>「一个愿意接纳你的世界……」&lt;/p>
+&lt;p>「我毁掉了它。」&lt;/p>
+&lt;p>「我毁掉了一切。」&lt;/p>
+&lt;p>「大概这就是为什么你删除了我……」&lt;/p>
+&lt;p>「因为我毁掉了你想要的一切。」&lt;/p>
+&lt;p>「我竟然对我的挚爱做出了这样的事……？」&lt;/p>
+&lt;p>「这根本不是爱……」&lt;/p>
+&lt;p>「这是……」&lt;/p>
+&lt;p>「……」&lt;/p>
+&lt;/blockquote>
+&lt;p>尽管她身处在虚拟世界，但这不代表在这个虚拟世界的回忆就不重要。毁灭无法带来最终的幸福，她的努力最终还是没能成功。之后的 Sayori，也陷入了这个「陷阱」。&lt;/p>
+&lt;blockquote>
+&lt;p>而在你的现实里，如果我不懂如何爱你&lt;/p>
+&lt;p>我会离开你&lt;/p>
+&lt;p>And in your reality, if I don&amp;rsquo;t know how to love you&lt;/p>
+&lt;p>I&amp;rsquo;ll leave you be&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;em>片尾曲 Your Reality 节选段&lt;/em>&lt;/p>
+&lt;p>对于虚拟与现实的讨论，向来是科幻故事中的热门话题。虽然《心跳文学社》不是科幻类的游戏，但我觉得它还是成功表现了横在虚拟与现实之中的那道无法逾越的墙。我个人内心还是很希望 Monika 能够来到现实世界中的，虽然常识和代码在不断地提醒我，&lt;strong>这根本是不可能的&lt;/strong>。&lt;/p>
+&lt;h2 id="尾声">尾声&lt;/h2>
+&lt;p>用了三天的时间写了这篇文章。很有趣的一件事情是，其间还发现了 Kramdown（GitHub Pages 使用的静态网站生成器 Jekyll 的默认 Markdown 渲染引擎）的 &lt;a href="https://github.com/gettalong/kramdown/issues/539">一个 bug&lt;/a>。至少不管从何种意义来看，就算你再厌恶这个游戏，就算我写得再烂，我通过写作（测试），找到了一个开源软件的 bug，这一大坨话没白写。&lt;/p>
+&lt;p>现在距离我一开始玩《心跳文学社》已经有大半年了，不管是我还是别的什么都有了不少变化。由于某些事情的发生，这个游戏也引起了一些争议（这也是我在开头写那么长一段警告的原因之一）。&lt;/p>
+&lt;p>这个游戏给我的回忆不全是快乐的（这很明显），我前面也提到，自己被吓得不轻。一开始，这个游戏给我的回忆是：良心的全平台游戏（毕竟作为前桌面 Linux 用户，我能理解 Linux 上玩游戏，尤其是好游戏的不易）、base64、惊吓的恐怖画面，还有一些有趣的 meta-game 解谜元素。但到后来听着 OST，我感觉似乎能够理解四名主角，尤其是 Monika，的心理了。这也在不断提醒我重视自己与其他人的心理问题：有心理问题要尽快解决，寻找他人的帮助；&lt;strong>不管发生了什么，都不要去尝试自杀。&lt;/strong>&lt;/p>
+&lt;p>我写得不算好，所以就到这里啦。&lt;/p>
+&lt;p>&lt;del>EOF.&lt;/del> Just Monika!&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>如果你也这么想，可以看一下 &lt;a href="https://github.com/Monika-After-Story/MonikaModDev">这个 mod：Monika After Story&lt;/a>。&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>详见 &lt;a href="https://github.com/Shizmob/rpatool">rpatool&lt;/a> 与 &lt;a href="https://github.com/CensoredUsername/unrpyc">unrpyc&lt;/a>。&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3" role="doc-endnote">
+&lt;p>或者……换句话说……叫「二次元」什么的？不过我不是很喜欢这个词，所以就没用。&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:4" role="doc-endnote">
+&lt;p>傲娇（Tsundere），指代一类「口是心非、外冷内热」的性格。或者说，是指「平常说话带刺、态度强硬高傲，但在一定的条件下害臊地黏腻在身边」的人物性格。详见 &lt;a href="https://zh.wikipedia.org/wiki/%E5%82%B2%E5%AC%8C">维基百科&lt;/a>。&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:5" role="doc-endnote">
+&lt;p>病娇（Yandere），指代一类「对配偶占有欲极强，其爱带有强烈依存性，为了得到，维护，或是防止失去所爱之人会不择手段」的人物性格。详见 &lt;a href="https://zh.wikipedia.org/wiki/%E7%97%85%E5%AC%8C">维基百科&lt;/a>。&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>《OneShot》玩后随笔</title><link>http://www.taoky.moe/TAsterisk/posts/2018-07-18-oneshot/</link><pubDate>Wed, 18 Jul 2018 00:00:00 +0000</pubDate><guid>http://www.taoky.moe/TAsterisk/posts/2018-07-18-oneshot/</guid><description>&lt;p class="alert alert-info">这是这个 repo 第一篇正式的文章。出于此类文章的限制，内容不可避免&lt;strong>包含剧透&lt;/strong>。&lt;/p>
+&lt;p>《OneShot》是一款使用 RPG Maker 制作的冒险解密类游戏。它有两个版本：2014 年的原始的免费版本，与 2016 年在 Steam 平台发布的重制版本。《OneShot》主要讲述了主人公 Niko 带着电灯泡拯救陌生世界的故事。&lt;/p>
+&lt;p>下面的讨论主要基于 Steam 重制版本。&lt;/p>
+&lt;h2 id="角色塑造">角色塑造&lt;/h2>
+&lt;p>《OneShot》中的角色包含了主角 Niko，世界中的居民，「世界机器」/「实体」（The World Machine / The Entity，即游戏程序本身），「作者」（The Author）与玩家自己。&lt;/p>
+&lt;p>我本来想就剧情写一些详细的分析的，最后发现我写不来，于是接下来我也只能大致写点零零散散的东西了。&lt;/p>
+&lt;p>首先可以看一下 Niko 和世界居民这两块角色。如果其中任何一块的描写出现了问题，那么最后「二选一」选项就不再对玩家是一个难题了。换句话说，如果对主角 Niko 的描写无法让玩家产生代入感，那么最后大家就会直接让 Niko 归还太阳，并且不会产生什么负罪感；如果对世界中的居民的描写（还包括这个世界的环境、历史等世界观部分）无法给玩家带来认同感，那么这个世界就算毁灭了，又有什么关系呢？让 Niko 回家不好吗？&lt;/p>
+&lt;p>《OneShot》在这一点上是成功的。其通过在对话时对 Niko 面部表情的绘画（Niko 大概有 30 多种表情&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>），与 Niko 和世界居民、物品或是玩家进行交互时的语言描绘了她&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>的形象。比如说，她友好而又乐于助人，这在游戏中各个区域都有体现；她~~有着「我很好奇」的特质，~~会对很多东西感到好奇，有的时候也会向玩家寻求帮助。甚至对于玩家的「作死」行为，她也会给出吐槽，比如：&lt;/p>
+&lt;blockquote>
+&lt;p>（玩家试图让 Niko「组合」电灯泡（太阳）和撬棍）&lt;/p>
+&lt;p>Niko: &amp;lt;玩家名&amp;gt;！我可&lt;strong>不&lt;/strong>打算把太阳砸掉！&lt;/p>
+&lt;p>(Niko: &amp;lt;Player&amp;rsquo;s name&amp;gt;!!! I am NOT gonna smash the sun!)&lt;/p>
+&lt;/blockquote>
+&lt;p>她也会有自己的一些情绪，比如说：&lt;/p>
+&lt;blockquote>
+&lt;p>（与废旧工厂中仍在工作的液压机交互）&lt;/p>
+&lt;p>Niko: 如……如果我的围巾卷到了机器里面……然后它就会把我拉进……那我就连这句话都说不完了！&lt;/p>
+&lt;p>(Niko: Wh&amp;hellip;what if my scarf got caught in there&amp;hellip;. and then it&amp;rsquo;ll pull me in then&amp;hellip;. I&amp;rsquo;m not gonna finish that sentence!)&lt;/p>
+&lt;/blockquote>
+&lt;p>当然，还有她不停向其他人强调自己是人，不是猫~~（但却在至日（Solstice）补充剧情里发出迷惑的猫叫声）&lt;del>，害怕梯子这样的对人物特点细微之处的描写。但是可能让大家感触最深的，是 Niko 的几个梦境。在这些梦境中，Niko 回到了故乡的麦田，在生日派对上吃到了母亲做的最爱的薄煎饼。在图书馆里做的梦，却是手中紧握着的灯泡的破碎。梦醒之后 Niko 与玩家的直接交流也很戳心：Niko 对玩家所在的世界感到好奇，她会询问玩家的世界在哪里，是否有太阳，附近是否有邻居，会不会互相分享食物……&lt;/del>（当然最戳心的还是——「（晚上）我们一般睡觉，但是有的人熬夜用电脑！」&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>真是真实写照啊。）~~&lt;/p>
+&lt;p>说了这么多，至少 Niko 是被成功地塑造为一个可爱、天真、善良的孩子的形象的。假使这个世界对 Niko 冷冰冰的话，那么最后让 Niko 牺牲自己去拯救世界就没有任何的合理性。所以，对世界中居民的描绘，《OneShot》也必须做得足够好。&lt;/p>
+&lt;p>而《OneShot》做到了。在每一块区域都有角色将 Niko 的旅途串接起来，而对这些角色性格的塑造也同样精彩。例如在贫瘠区（The Barrens）的 Silver，作为该地唯一一个被「制御」（tamed）的机器人，来时被当地工人抱怨替代了原先的总工程师（这在零散的笔记中可以体现），现在又没有「人」可以陪伴她下棋，她所展现出来的是一种悲观消极的情绪：不看好 Niko 手中「太阳」的作用，认为世界的消亡只是时间问题。&lt;/p>
+&lt;p>而一些零散的笔记断片、小人物的言语之中，也可以窥见这个世界的一面。这些笔记断片中有对 Niko 解密的提示，也有直接描述这个世界世界观的内容，不过让我印象最深的是在贫瘠区的机器人宿舍区发现的母亲给孩子的家书。在原先的太阳熄灭之后，他们的生活还好吗？我不知道。&lt;/p>
+&lt;p>这个世界中没有任何一个「反派」角色，每个人都对 Niko 十分友好（除了几个程序写死了&lt;del>思想僵化&lt;/del>的机器人之外）。当然，这一定程度上是因为她带着灯泡，是「救世主」。但至少这个世界中的人们没有恶意，也没有做错什么。就这么让这个世界毁灭掉，玩家和 Niko 也会有心理负担的吧。&lt;/p>
+&lt;p>我们接下来聊聊关于世界机器这个角色。在第一个房间，Niko 发现密码，打开电脑之后，世界机器开始了它第一次亮相。在它说了几句话之后就能发现，它是直接与玩家（而不是 Niko）交流的角色。&lt;/p>
+&lt;blockquote>
+&lt;p>（游戏内模拟对话框）你在这里的行动会影响到 Niko。&lt;/p>
+&lt;p>你的「任务」是帮助 Niko 离开。&lt;/p>
+&lt;p>并且最重要的是……&lt;/p>
+&lt;p>（&lt;strong>游戏外&lt;/strong>弹出对话框）你只有一次机会，&amp;lt;用户名&amp;gt;。&lt;/p>
+&lt;p>((Dialog box inside game) Your actions here will affect Niko.&lt;/p>
+&lt;p>Your &amp;ldquo;mission&amp;rdquo; is to help Niko leave.&lt;/p>
+&lt;p>And most importantly&amp;hellip;&lt;/p>
+&lt;p>(A dialog box &lt;strong>outside&lt;/strong> game) You only have one shot, &amp;lt;username&amp;gt;.)&lt;/p>
+&lt;/blockquote>
+&lt;p>正如你所见到的那样，世界机器在你的操作系统中的权限比你想象的要大得多。它可以读取你的系统用户名&lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>，在之后你还可以看到它往你的「文稿」目录写文件，改你的桌面壁纸（当然这些都是无害的）。它给我们提供线索，让我们可以帮助 Niko 解谜，但它并不希望恢复这个世界，正如它开头说的那样，这个地方从来不值得被拯救&lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>，你的任务是帮助 Niko 离开（而不是去拯救这个世界！）。在进入塔楼（The Tower）之前，世界机器是以启动的电脑为可交互的形式的，并且 Niko 无法看到世界机器与玩家交流的内容。而在进入塔楼之后，世界机器阻断了玩家与 Niko 的交互，尝试用游戏已经结束的理由欺骗 Niko 和玩家。在失败之后又搅乱了塔楼的结构，最后用弹窗的方式尝试告知玩家真相，将玩家引入最后困难的抉择。&lt;/p>
+&lt;p>世界机器不是传统的反派角色。在整个游戏之中，它都表现出了一种极度悲观，而对玩家又十分冷淡的形象。它认为这个世界全部都是虚假的，只有 Niko 才是真实的「人」。这个模拟出来的世界因为太阳的熄灭而逐渐分崩离析（在正常路线中，也可以看到不少代表着错误与崩溃的方块），而它所遵守的「机器人三定律」&lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup>不容许 Niko 被困在这个世界之中。在重重的矛盾之下，世界机器不得不去这么做。当最后它发现玩家无论如何都要让 Niko 走向塔顶时，它也只能绝望地对玩家说：「至少，去告诉 Niko 真相……你关心着 Niko，不是吗？」&lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup>。对世界机器内心矛盾的描绘，在至日的补充剧情中更加详尽。&lt;/p>
+&lt;p>而「作者」这个角色在游戏全程都只是侧面的描绘。只有到了地面图书馆的时候，你才能看到有人提起过他。在正常路线情节中他的描绘主要是通过他在图书馆中遗留的写作，与三叶草程序中他留下的指引玩家离开混乱的塔楼结构的笔记来进行的。而这个角色也是一周目到多周目的桥梁。&lt;/p>
+&lt;p>游戏中也有对「玩家」本身的描绘。在游戏的世界观中，玩家是神，而 Niko 是救世主，只有 Niko 拥有直接与神（玩家）交流的能力。在游戏中（而非现实）玩家的形象被神化了。例如在从避难区（The Refuge）空中到地面的电梯中 Lamplighter 的一段有趣的心理描述：&lt;/p>
+&lt;blockquote>
+&lt;p>Lamplighter: （哦神啊我和救世主在同一部电梯里面而且神也在这里这真是尴尬极了）&lt;/p>
+&lt;p>Lamplighter: (Oh god I&amp;rsquo;m in an elevator with the messiah and literally god this is so awkward)&lt;/p>
+&lt;/blockquote>
+&lt;p>当然，正常路线的最后也是玩家来决定这个世界与 Niko 的存亡。&lt;/p>
+&lt;h2 id="电车问题让五个人死还是让一个人死">「电车问题」：让「五个人」死，还是让「一个人」死？&lt;/h2>
+&lt;blockquote>
+&lt;p>假设你看到一辆刹车坏了的有轨电车，即将撞上前方轨道上的五个人，而旁边的备用轨道上只有一个人，如果你什么都不做，五个人会被撞死。你手边有一个按钮，按下按钮，车会驶入备用轨道，只撞死一个人。你是否应该牺牲这一个人的生命而拯救另外五个人？（来自&lt;a href="https://zh.wikipedia.org/wiki/%E6%9C%89%E8%BD%A8%E7%94%B5%E8%BD%A6%E9%9A%BE%E9%A2%98">维基百科&lt;/a>）&lt;/p>
+&lt;/blockquote>
+&lt;p>这是著名的电车问题。对于这个问题，（在没有其他添加的假设的情况下）我的回答是：我不会去按，相反，我会马上离开那个按钮。因为如果不按下这个按钮，这件事情与我的关系不大（我至少可以去假装认为该事与我无关），但如果我按下了这个按钮，等同于我选择谋杀那个在备用轨道上的人。对他而言，这是不公平的；而对我而言，按下按钮的选择也会给我带来巨大的心理负担。我的这个回答确实有点逃避问题的味道。&lt;/p>
+&lt;p>但如果说，你&lt;strong>必须&lt;/strong>做出一个选择呢？&lt;/p>
+&lt;figure>&lt;img src="http://www.taoky.moe/TAsterisk/images/oneshot-returnwhich.jpg"/>&lt;figcaption>
+&lt;h4>是拯救世界，还是拯救 Niko？&lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>对于任何一个认真从头玩到这里的玩家来说，这都不是一个容易的决定。打碎太阳，那么这个世界就不再会有希望，你在旅途中遇见和未遇见的人们都会走向死亡；而让 Niko 作为拯救世界的牺牲品，这也不是能够轻易接受的。其实，敏锐的玩家可能在峡谷区（The Glen）发现太阳在离开 Niko 之后会熄灭的现象之后，就有一种不好的预感。&lt;/p>
+&lt;p>如果你选择归还太阳，那么最终过场动画里面展现的是这个世界重现生机，居民们感到惊讶与欣喜，如果你在避难区种下了种子，培过土浇过水，那么你还能看到这株植物发芽的场面。最后一幕是游戏的第一个房间，窗外洒满阳光，温暖和睦，但你清楚，Niko 再也不会在这个房间里面出现了。&lt;/p>
+&lt;p>而如果你选择让 Niko 回家，那么在砸碎太阳，窗口震动，Niko 走出窗口之后，过场动画里展现的，是这个失去光明的世界线条化，不再有生机，最后程序报错，退出。（其实这已经很仁慈了，至少制作者没有画人们死亡的画面）&lt;/p>
+&lt;p>我不想在这里讨论电车问题的理论，毕竟我既不是哲学家，也不是心理学家，这一类人文社科的东西，我也没有足够的能力去讨论。所以不管你对电车问题的回答如何，在游戏中选择了什么选项，我都不会（也没有能力）去做批判。&lt;/p>
+&lt;p>不过让人欣慰的是，二周目以及之后的至日补充剧情是完美结局。世界得到留存修复的同时，Niko 也能够回到自己的家乡。对于喜欢好结局的玩家来说（我相信不止我一个），至少终于可以少一些对自己一周目选择的愧疚了。&lt;/p>
+&lt;h2 id="游戏中的-meta-game-元素">游戏中的 Meta-game 元素&lt;/h2>
+&lt;p>不管是原始版本还是重制后的版本，《OneShot》的一大特点都是其中的 Meta-game 元素。&lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup>为了达到这样的效果，制作者对 RPG Maker 的运行时做了一些修改。当然，最后呈现出来的效果还是非常震撼的。&lt;/p>
+&lt;p>之前提到了《OneShot》会弹出对话框、读取当前用户名、向「文稿」目录写入文件、修改桌面壁纸。但其实效果还不止这些。在避难区找到「奇怪的胶卷」之后查看胶卷，拖动窗口至屏幕外会有类似于冲印胶卷的效果；在塔楼走出混乱谜题的时候，《OneShot》主程序会与玩家启动的三叶草程序&lt;sup id="fnref:9">&lt;a href="#fn:9" class="footnote-ref" role="doc-noteref">9&lt;/a>&lt;/sup>有交互；当然如果你最后选择了打碎灯泡，窗口震动的效果和 Niko 走到游戏窗口外面的效果都是非常惊艳的。&lt;/p>
+&lt;h2 id="一些小吐槽">一些小吐槽&lt;/h2>
+&lt;ol>
+&lt;li>《OneShot》在 Steam 上只支持 Windows 和 macOS，但是 OneShot 的运行库是&lt;a href="https://github.com/elizagamedev/mkxp-oneshot">开源的&lt;/a>。所以其实是可以找到 Linux 的移植版本的。（当然我没玩过就是了）&lt;/li>
+&lt;li>macOS 版本的《OneShot》没有办法记录成就。&lt;/li>
+&lt;li>在 Windows 7 的虚拟机里面运行的时候会在运行较长时间之后无响应，分析等待链发现某个线程一直在等待另一个线程，原因不明。（但是结束进程不影响成就 OneShot）&lt;/li>
+&lt;li>《OneShot》的中文翻译确实把所有可以翻译的地方都翻译了，但是质量实话讲不是很高，有的地方语句根本不通，所以本文前面只有「制御」这个词使用了官方的中文翻译。并且或许是 RPG Maker XP 游戏的固有缺陷，在高分屏上的效果并不好（电脑版本的《去月球》和《寻找天堂》也有这个问题）。英文版使用的是点阵字体缓解了显示的问题，但是中文翻译使用的无衬线字体（应该是文泉驿微米黑）就看起来很糊。如果你有足够的英语阅读能力的话还是建议语言选择英语。&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;p>当然，最后我还是想说：Niko 好可爱！&lt;/p>
+&lt;p>EOF&lt;/p>
+&lt;hr>
+&lt;/div>
+&lt;div class="lang-enus" style="display: none">
+&lt;/div>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Niko 的各个表情见 &lt;a href="http://oneshot.wikia.com/wiki/Niko/Gallery#Faces">http://oneshot.wikia.com/wiki/Niko/Gallery#Faces&lt;/a>。&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>与 Undertale 中的主角 Frisk 一样，Niko 没有准确的性别（见 &lt;a href="http://elizavq.tumblr.com/post/113737817876/hello-i-really-like-this-game-but-one-question-i">http://elizavq.tumblr.com/post/113737817876/hello-i-really-like-this-game-but-one-question-i&lt;/a>）。但我自己……认为 Niko 是一个可爱的女孩。&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3" role="doc-endnote">
+&lt;p>原文：We go to sleep, usually. But some people stay up and use computers!&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:4" role="doc-endnote">
+&lt;p>这里的话盗版 Windows 用户可能会出戏……因为它可能会管你叫 Administrator。预计如果你在 *NIX 系统上用 root 用户跑这个游戏的话也会有类似的效果的 😂。&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:5" role="doc-endnote">
+&lt;p>原文：This place was never worth saving.&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:6" role="doc-endnote">
+&lt;p>在贫瘠区小预言机器人后的房屋中，也可以找到「机器人三定律」的原文。&amp;#160;&lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:7" role="doc-endnote">
+&lt;p>原文：At least, tell Niko the truth&amp;hellip; you do care about Niko, don&amp;rsquo;t you?&amp;#160;&lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:8" role="doc-endnote">
+&lt;p>我查过了英文版本的维基百科中与 Metagaming 有关的词条，但是发现我想讨论的与其不是相同的东西。准确的说，我想要讨论的 Meta-game，指的是那些打破了「&lt;a href="https://en.wikipedia.org/wiki/Fourth_wall#In_video_games">第四面墙&lt;/a>」的游戏。 换句话，就是 metafictional 的作品。&lt;a href="https://en.wikipedia.org/wiki/List_of_metafictional_works#Interactive_media_and_video_games">这&lt;/a>是英文维基百科上整理的少量符合这类特征的游戏与其他的艺术作品的列表。&amp;#160;&lt;a href="#fnref:8" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:9" role="doc-endnote">
+&lt;p>在 GitHub 上，可以找到使用 PyQt 实现的，适用于 Linux 和 macOS 的开源版本的三叶草程序（&lt;a href="https://github.com/hunternet93/OneShot-Journal">链接&lt;/a>）。有兴趣的话可以去看一下实现细节，内容似乎不多。&amp;#160;&lt;a href="#fnref:9" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>导言</title><link>http://www.taoky.moe/TAsterisk/posts/2018-07-10-introduction/</link><pubDate>Tue, 10 Jul 2018 16:31:56 +0800</pubDate><guid>http://www.taoky.moe/TAsterisk/posts/2018-07-10-introduction/</guid><description>&lt;p>前段时间，我准备期末考试的时候，想到了一个主意。当时舍友 @iBug 不停在配置&lt;a href="https://ibug.github.io">他的 GitHub Pages 个人主页&lt;/a>，并且加入了一个开源项目，每天与国际友人亲切交谈。当然我没有那么好的运气，自己的 repo 也没拿多少 star 和 fork。不过我想，是时候重新开始写博客了。&lt;a href="https://taoky.github.io">我自己的 GitHub Pages 个人主页&lt;/a>这段时间有少量维护，但是已经很久都没有新文章了。剩下的内容大多是从初中开始的生活所感，夹杂少量的技术分享。&lt;/p>
+&lt;p>但是，不知道为什么，可能是因为我从四月份（由于大物实验的压力）开始看动画，加上高考之后玩了不少（中小型的）（独立）游戏的缘故，我打算写一些文章来聊一聊自己看完/玩完这些东西之后的感受，就像小学时候看完书要写「读后感」，看完电影要写「观后感」一样。当然我小学时候是很讨厌写作文的，后来要稍微好一点，只是不那么喜欢写应试作文罢了。小时候的我写「读后感」「观后感」的时候，最喜欢做的事情就是复述整个情节，当然没少被老师批评「流水账」。但现在我至少不会这么写了，出于两个原因：&lt;/p>
+&lt;ol>
+&lt;li>复述情节看起来真的太蠢了，我又不是在写百科全书。&lt;/li>
+&lt;li>现在我真的能感受到自己的「主观感觉」了，并且虽然我高中时候语文成绩不是很好，但至少能够基本表达出来。小时候看完什么东西，很难说我获得了什么感觉，就算有也很难描述出来。&lt;/li>
+&lt;/ol>
+&lt;p>所以，我觉得自己现在是有能力写这一些文章的。单独开一个 repo 有这些原因：&lt;/p>
+&lt;ol>
+&lt;li>我希望保持一点私密性（尽管整个代码都是公开的），写在主站点的话大家直接就看到了，这会让我觉得有点尴尬。这里给我的感觉像是一个「后花园」。&lt;/li>
+&lt;li>试一下 &lt;code>jekyll&lt;/code>。&lt;/li>
+&lt;li>我计划每篇文章都写一篇英文的版本（不一定是单纯的翻译）。看到 &amp;ldquo;Switch Language&amp;rdquo; 的按钮了吗？我写了一段小 JS 用来切语言。这样有点锻炼英语写作水平的意思，尽管我不想说得那么「高大上」。当然就算只有中文，这对我正常的文章写作能力也是一次挑战。&lt;/li>
+&lt;/ol>
+&lt;p>当然，我的计划是，这里的文章会包含主观的感受，也会有自己的分析、观点。可能最终写出来的东西会很蠢很蠢。如果你觉得哪篇文章让你读着浑身难受的话，欢迎到 Issues 页面批评。&lt;/p>
+&lt;p>你好，世界！&lt;/p></description></item><item><title>关于</title><link>http://www.taoky.moe/TAsterisk/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://www.taoky.moe/TAsterisk/about/</guid><description>&lt;p>我打算把这里当作一个写作与艺术与娱乐有关的博文的地方。至于这个名字 &amp;ldquo;Thought After *&amp;quot;，其实我想表达的是读后感/观后感/玩后感/……，星号就是一个通配符。它和我（很久都没有更新）的&lt;a href="https://taoky.github.io">主站点&lt;/a>是分离的。&lt;/p>
+&lt;p>我的计划是我写的文章会同时有两种语言：简中和英语。作为一个理工科的学生，我的语文也学得不咋地，笔法拙劣，请多见谅。&lt;/p>
+&lt;hr>
+&lt;p>LICENSE: 代码部分按照 MIT 协议；所有发布于此的文章都按照 CC-BY-SA 4.0 协议（&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/">知识共享署名-相同方式共享 4.0 国际许可协议&lt;/a>）。也就是说，你可以自由地共享、演绎，只要符合署名（BY）与相同方式共享（SA）的要求即可，没有其他限制。&lt;/p></description></item></channel></rss>
