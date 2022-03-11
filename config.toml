@@ -35,6 +35,14 @@ url = "https://www.taoky.moe/TAsterisk/posts/index.xml"
 # show_reading_time = true
 custom_css = ["alert.css", "override.css"]
 
+[[languages.en.params.ananke_socials]]
+name = "github"
+url = "https://github.com/taoky/TAsterisk"
+
+[[languages.zh.params.ananke_socials]]
+name = "github"
+url = "https://github.com/taoky/TAsterisk"
+
 [markup.goldmark.renderer]
 unsafe = true
 
