@@ -1,4 +1,58 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>TAsterisk</title><link>http://www.taoky.moe/TAsterisk/</link><description>Recent content on TAsterisk</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>CC-BY-NC-SA 4.0</copyright><lastBuildDate>Fri, 11 Mar 2022 00:36:38 +0800</lastBuildDate><atom:link href="http://www.taoky.moe/TAsterisk/index.xml" rel="self" type="application/rss+xml"/><item><title>从 Jekyll 到 Hugo</title><link>http://www.taoky.moe/TAsterisk/posts/2022-03-11-hugo/</link><pubDate>Fri, 11 Mar 2022 00:36:38 +0800</pubDate><guid>http://www.taoky.moe/TAsterisk/posts/2022-03-11-hugo/</guid><description>&lt;p>趁着这几天没有什么事情，把 TAsterisk 从 Jekyll 搬到了 Hugo，直接用了 Hugo Quickstart 里面提到的主题。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>TAsterisk</title><link>http://www.taoky.moe/TAsterisk/</link><description>Recent content on TAsterisk</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>CC-BY-NC-SA 4.0</copyright><lastBuildDate>Tue, 26 Jul 2022 17:45:00 +0800</lastBuildDate><atom:link href="http://www.taoky.moe/TAsterisk/index.xml" rel="self" type="application/rss+xml"/><item><title>SeaBed: 太阳从海的东边升起</title><link>http://www.taoky.moe/TAsterisk/posts/2022-07-26-seabed/</link><pubDate>Tue, 26 Jul 2022 17:45:00 +0800</pubDate><guid>http://www.taoky.moe/TAsterisk/posts/2022-07-26-seabed/</guid><description>&lt;p class="alert alert-info">&lt;strong>包含剧透&lt;/strong>。&lt;/p>
+&lt;p class="alert alert-info">中文翻译小部分参考了 &lt;a href="https://bgm.tv/subject/topic/17016">https://bgm.tv/subject/topic/17016&lt;/a> 中对应的版本。因为敲名字有点麻烦，所以人名主要用英文写。&lt;/p>
+&lt;p>SeaBed 是一部百合向视觉小说。整个游戏没有选项，单路线单结局，和阅读小说也差不多（除了有人物、背景、音效和背景音乐以外）。&lt;/p>
+&lt;p>感觉自己已经很久很久没有写过除了计算机以外的东西了。之前想重新开始写评论的时候，考虑的就是从 SeaBed 开始，因为在写作上我可以专注在分析剧本的文字上，而不用去考虑游戏性的问题（从交互来看，它也没什么游戏性），同时可以打破我在这里只写 meta-game 游戏（OneShot 和 DDLC）评论的现况。&lt;/p>
+&lt;p>&lt;a href="https://store.steampowered.com/app/583090/SeaBed/">SeaBed 的 Steam 页面&lt;/a>上简介写的是 &amp;ldquo;SeaBed is a yuri-themed mystery visual novel&amp;rdquo;，但是归类于悬疑向可能不算很合适。其整体的写作是比较意识流的，并且在写作上更喜欢留白：它就没打算把所有事情解释清楚。如果冲着 mystery 去玩，那恐怕会比较失望。所以接下来我会尝试把我理解的剧情走向写下来，之后尝试去评论为什么我喜欢它的剧情和文字描写（即使其写作非常意识流），最后提供一些补充性的信息。&lt;/p>
+&lt;h2 id="按时间的剧情概述">（按时间的）剧情概述&lt;/h2>
+&lt;p>游戏中的剧情顺序基本上是从贵呼（Takako）离世两年之后开始的，在时间推进的同时回顾过去的回忆，一点一点发现双方忘记了的事情。下面的概述不会按照这个顺序（因为很麻烦）。同样，因为文本量非常大，下面的概述主要根据我读完之后的回忆，可能无法完全准确对应游戏的脚本。我相信不止是我看完一遍游戏之后还是迷迷糊糊的，所以下面整理的内容可能会有一些帮助。&lt;/p>
+&lt;p>整个故事发生在上世纪 70 - 90 年代的日本。SeaBed 最主要的角色是佐知子（Sachiko）和 Takako。小的时候，Takako 搬到了 Sachiko 家附近，两人成为了很好的朋友。两人一起上学，情同手足。Sachiko 有一个名叫楢崎（Narasaki）的医生布偶娃娃，经常和她一起玩。1975 年 11 月的一天，Sachiko 在学校的仓库发现 Takako 颤抖着缩在地上，Sachiko 伸出双手盖住了她的耳朵，颤抖的反应渐渐消退，Takako 似乎听到了一些让人害怕的东西（耳鸣）。&lt;/p>
+&lt;p>之后两人一起升入高中，成为恋人，工作、环球旅行，在旅行结束后创立了「四叶草设计工作室」。之所以是四叶草，是因为在高中时，Takako 曾经送给 Sachiko 一株四叶草盆栽作为生日礼物。在设计方面，Takako 非常有创造力，而相比之下 Sachiko 更偏向于按照要求去设计。&lt;/p>
+&lt;p>在四年前（相对游戏剧情的时间），工作室招了文（Fumi）作为员工。在两年前，Takako 的病恶化（可能和小时候的耳鸣有关系），因为病因未知无法治疗，所以在临死前一个月选择在家休养。她逐渐开始失去自己的意识，在最后两天，Takako 恢复了一些意识，两人聊着各种各样的话题。&lt;/p>
+&lt;blockquote>
+&lt;p>「人死之后会怎么样呢？」&lt;/p>
+&lt;p>「不知道。我猜应该会由神明来决定。」&lt;/p>
+&lt;p>「但我想我是无神论者吧。」&lt;/p>
+&lt;p>「Hmm」&lt;/p>
+&lt;p>「这样吧，与其让不知道谁来决定，还不如让佐知子你来替我决定吧。」&lt;/p>
+&lt;p>「我听说人会活在爱他们的人的心中，而且我也是这么认为的：当我在想你会想什么东西的时候，你就出现在了我的脑海中。所以，就算你不在了，我也会一直想念你，这样的话，你就还会活在我的心中。」&lt;/p>
+&lt;p>「那会是个什么地方呢？」&lt;/p>
+&lt;p>「一个好地方，是个沿海的港口城市。那里很安静，空气甜美，一年四季都适合读书。」&lt;/p>
+&lt;p>「然后我要搬过去？」&lt;/p>
+&lt;p>「嗯。那里人都很友善，他们会对你很好的。」&lt;/p>
+&lt;p>「听起来像仙境呢。」&lt;/p>
+&lt;p>「是可以这么说。」&lt;/p>
+&lt;p>「不错啊，多讲讲。」&lt;/p>
+&lt;p>「好。」&lt;/p>
+&lt;/blockquote>
+&lt;p>可能是因为 Takako 临死前让 Sachiko 决定了死亡之后的安排，Takako 发现自己在一座疗养院里，疗养院里只有护士茧子（Mayuko）、爱读书的早苗（Sanae）和小朋友梢（Kozue），而自己只知道因为某种原因和 Sachiko 分开了，但不知道具体的情况，过往的记忆也遗失大半。疗养院的病人都有一种神秘的疾病：间断性耳鸣，然后失忆，这种症状只能通过记日记的方式来缓解（避免最后失去全部的记忆）。&lt;/p>
+&lt;p>而在现实世界，Sachiko 参加了 Takako 的葬礼之后，也似乎在逃避着 Takako 已经离世的现实。两年后，她忘记了 Takako 的死亡，只是认为她两年前突然失踪了，相关的记忆也开始模糊，并且经常感觉 Takako 仍然还在身边一起工作和生活，甚至自己想象中的 Takako 和离世后的新招的员工犬饲（Inukai）还会沟通。并且 Sachiko 现在也会出现间歇性的耳鸣。在发觉自己关于 Takako 的记忆错乱之后，Sachiko 找到了自己现在当心理医生的「发小」Narasaki，希望她能够帮助治疗。&lt;/p>
+&lt;p>在年末放假之前，Sachiko 和 Fumi 在回家的车上聊天时谈及到了两年前的假期安排。Sachiko 奇怪自己为什么当时放了一个长假，Fumi 此时提到 Takako 离世的事实，让 Sachiko 大为惊愕。趁着放假的机会，Sachiko 前往了之前旅行时认识的朋友七重（Nanae）的洋馆休息——虽然奇怪的是，自己好像没有预订过房间，但是 Nanae 却主动打电话说房间已经给她准备好了。&lt;/p>
+&lt;p>Nanae 的洋馆里除了她本人以外，还有她的姑姑莉莉（Lily），是个非常出色的厨师，以及 Kozue。住下的当晚，Sachiko 好像看到了 Takako 的幻影，冲出洋馆门外，却发现 Narasaki 也来了。之后主要就是 Sachiko 和 Narasaki 两人的视角在洋馆的日常。Sachiko 在图书馆认识了 Kozue，发现她对洋馆的建筑设计非常感兴趣。&lt;/p>
+&lt;p>在 Takako 这里，有天她发现一个给自己的包裹，里面是一本以 Sachiko 视角记录回忆的日记本，虽然有几页被撕掉了。靠着这本日记本，她恢复了一部分的记忆。有天晚上耳鸣之后，Mayuko 用双手把她的耳朵捂住，和小时候的 Sachiko 一样。&lt;/p>
+&lt;p>Sachiko 做梦的时候，发现自己回到了小时候的回忆。有次，小 Takako 带她穿过一条漆黑的隧道，但是迷路了。此时，Narasaki 赶到，告诉她，「时间」在这里并不存在，这既不是梦，也不是现实世界。Narasaki 告诉她，Takako 所在的疗养院就在隧道的另一边（「我曾在那里工作」），而原路返回就能回到现实世界。如果 Sachiko 选择去疗养院，那么「现实世界」的问题 Narasaki 会帮她处理好——在现实世界里就算自己的意识（consciousness）不在问题也不算大，大部分时候人做的都是机械性的事情，只有和自己很熟悉的人才会发觉区别。Sachiko 还是选择了回去，而从正文和 TIPS 的内容可以推断出，Nanae 在自己的孩子落水离世之后，选择了去陪孩子，而只有她的姑姑发觉了她的异样。&lt;/p>
+&lt;p>Takako 在疗养院发现了一间奇怪的屋子，里面漆黑一片，只有她在的时候，充满电的手电筒会熄灭，之后自己会被「传送」到另一个地方。她躲着 Mayuko 来了房间好几次，最后终于发现自己已经离世的事实。&lt;/p>
+&lt;p>在假期快结束的时候，Narasaki 动身前往 Takako 的世界，Sachiko 发现 Narasaki 不见之后问 Nanae，但是她却完全不知道 Narasaki 的存在。在疗养院，Narasaki 和 Takako 聊了一会，Narasaki 嘱咐了一些注意事项，并且成功让 Takako 和 Sachiko 在时隔两年之后隔着电话线通话。&lt;/p>
+&lt;blockquote>
+&lt;p>「所以说……如果我能和佐知子对话的话……那我有机会和她见上一面吗？」&lt;/p>
+&lt;p>「你的记忆都恢复了，你应该知道发生了什么事情的。」&lt;/p>
+&lt;p>「那我是怎么和她打电话聊天的呢？」&lt;/p>
+&lt;p>「这次是特殊情况。两个世界之间是有办法相连，但是这对佐知子不好。普通人是不会和自己脑海里的声音对话的。这个话题是时候结束了。」&lt;/p>
+&lt;/blockquote>
+&lt;p>最后，Narasaki 来到海边，烧掉了日记本中不愉快的几页回忆，然后沉入海底，回到了自己的世界。&lt;/p>
+&lt;p>Takako 和疗养院的朋友们一起出去旅行，而 Nanae 也来到了四叶草设计工作室拜访 Sachiko。正篇的故事差不多在这里结束，而在最后一个 TIP 里，在海滩度假的 Takako 突然发现岸边出现了 Sachiko 的人影——虽然人影转瞬即逝，但是 Takako 相信，Sachiko 一定会来这里，和她团聚。&lt;/p>
+&lt;h2 id="简评">简评&lt;/h2>
+&lt;p>就算把所有文本都读过一遍，有一些问题还是只能去猜测，比如说 Narasaki 到底是以怎样的形式存在的。如果抱着解谜的心态去玩，体验会非常怪异，因此可能忽略掉一些细节上的问题会更好。否则可能体验就是：序章已经告诉你 Takako 离世了，但是到后面的章节还是在不停猜测有没有什么别的可能性，最后发现其实真相就是这样，没有那么复杂。&lt;/p>
+&lt;p>在构建氛围上，SeaBed 的表现是很好的：背景音乐在烘托氛围上恰到好处，不突兀；而剧本文字很温和克制，几乎没有大起大落的情绪描写，用大量的回忆和日常活动来推进剧情的发展。在回忆中可以看到两人之间的情感交流，以及对彼此的依赖与思念。只在最后，当 Takako 发现自己存在的真相，以及两人终于能有机会对话的时候，压抑着的情感才一下子爆发出来。当然这样子写作也有问题：容易让人犯困。&lt;/p>
+&lt;p>关于结局，在 Takako 已经离世的前提下，SeaBed 给出的结局已经是最好的了：Takako 在幻想中的世界里继续正常生活下去，Sachiko 也最终摆脱了死亡的痛苦，开启新的生活。但是从读者的角度来讲，这样的结局仍然不能算是温馨，至少仍然能够感受到一种浅淡的伤感（或者换句话说，读者可能还没能够从死亡带来的痛苦中走出来）。不过，即使现实是两人已经无法再见面，但平和的回忆与日常却又不会让人感受到过分的痛苦。&lt;/p>
+&lt;p>最后一个 TIP 标题即是「太阳从海的东边升起」。在之前 Narasaki 和 Sachiko 的闲聊中，Narasaki 提到，另一个世界中发生的事情是由潜意识产生的，所以「时间」的概念是模糊的，另外还有一点区别——&lt;/p>
+&lt;blockquote>
+&lt;p>「太阳从西边升起，东边落下。」&lt;/p>
+&lt;/blockquote>
+&lt;p>Narasaki 之后给出的解释可能是在胡说八道，但是这种与现实相异的描写却无法让人忘记。&lt;/p>
+&lt;h2 id="附录">附录&lt;/h2>
+&lt;p>Wine 运行的体验不是很好，CPU 占用率很高，并且窗口有点问题。可以参考我之前做的笔记 &lt;a href="https://notes.taoky.moe/krkrsdl2">https://notes.taoky.moe/krkrsdl2&lt;/a>，解包之后用 krkrsdl2 运行，在非 Windows 平台上的效果会好很多。此外，开头提到的第三方的中文翻译可以拿来快速阅读，但是有少量翻译上的问题。&lt;/p>
+&lt;p>本来想写更多东西，但是感觉自己的文字功底还是不擅长写这种评论，因此评论的篇幅比我之前的预期缩短了不少，甚至还没剧情概述长。并且，意识流的东西也难以下手具体去做分析。&lt;/p>
+&lt;p>先就这样吧，英语版本看心情补。&lt;/p></description></item><item><title>从 Jekyll 到 Hugo</title><link>http://www.taoky.moe/TAsterisk/posts/2022-03-11-hugo/</link><pubDate>Fri, 11 Mar 2022 00:36:38 +0800</pubDate><guid>http://www.taoky.moe/TAsterisk/posts/2022-03-11-hugo/</guid><description>&lt;p>趁着这几天没有什么事情，把 TAsterisk 从 Jekyll 搬到了 Hugo，直接用了 Hugo Quickstart 里面提到的主题。&lt;/p>
 &lt;p>Hugo 的优点：&lt;/p>
 &lt;ul>
 &lt;li>非常快（GitHub Actions 里构建连十秒都不需要）。&lt;/li>
